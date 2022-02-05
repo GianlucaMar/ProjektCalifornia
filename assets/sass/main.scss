@@ -166,6 +166,7 @@
   position: relative;
 
   .circle {
+    overflow: hidden;
     position: absolute;
     width: 25%;
     top: -14vh;

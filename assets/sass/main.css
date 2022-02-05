@@ -218,6 +218,7 @@ a:hover {
   position: relative;
 }
 .relcirc .circle {
+  overflow: hidden;
   position: absolute;
   width: 25%;
   top: -14vh;
