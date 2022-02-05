@@ -1,0 +1,390 @@
+@import "_general.scss";
+// oben weiße senkrechte linie
+.flexIt {
+  display: flex;
+  background-color: black;
+  height: 40vh;
+  div:nth-of-type(1) {
+    border-right: 1px solid white;
+    width: 50%;
+  }
+}
+// BLACK 1
+.center {
+  text-align: center;
+  padding-top: 5%;
+  h1 {
+    font-size: 5rem;
+    padding: 1% 32%;
+    span {
+      color: black;
+      -webkit-text-stroke: 1px white;
+    }
+  }
+  p:nth-of-type(2) {
+    padding-bottom: 10%;
+  }
+}
+// bear & button
+.im {
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    padding-left: 15%;
+  }
+  a {
+    // text-align:right hat nicht funktioniert, warum?
+    // float: right;
+    margin-right: 15%;
+  }
+}
+// big text
+.last {
+  margin: 0 0 10% 15%;
+  font-size: 4.02rem;
+  padding: 15% 12% 0 0;
+}
+.back {
+  background: url(../img/map.svg);
+  background-position: right bottom 7rem;
+  background-repeat: no-repeat;
+  background-size: 28%;
+  background-color: black;
+}
+// wildfires
+.wild {
+  margin: 0 0 0 15%;
+  padding-bottom: 5%;
+  h2 {
+    font-size: 4.3rem;
+    padding: 1% 0;
+  }
+}
+// white
+.rel {
+  position: relative;
+  height: 250vh;
+  div {
+    width: 25%;
+  }
+  .eins {
+    position: absolute;
+    top: -4%;
+    left: 70%;
+  }
+  .zwei {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+  }
+  .drei {
+    position: absolute;
+    top: 40%;
+    left: 75%;
+  }
+  .vier {
+    position: absolute;
+    top: 55%;
+    left: 17%;
+  }
+  .textEins {
+    position: absolute;
+    top: 26%;
+    left: 35%;
+    h3 {
+      font-size: 5rem;
+      padding-right: 40%;
+    }
+    p {
+      padding-right: 61%;
+      line-height: 150%;
+    }
+  }
+  .fünf {
+    position: absolute;
+    top: 65%;
+    left: 65%;
+  }
+  .textZwei {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    padding-right: 33%;
+    line-height: 150%;
+  }
+  .sechs {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+  }
+  .sieben {
+    position: absolute;
+    top: 90%;
+    left: 53%;
+  }
+  margin-bottom: 0%;
+}
+// black zwei
+.space {
+  height: 140vh;
+  display: flex;
+  .lp {
+    padding: 71% 0 0 80%;
+  }
+  h2 {
+    padding-left: 80%;
+    font-size: 5rem;
+    line-height: 90%;
+  }
+  .thisDesign {
+    padding: 15% 16% 0 34%;
+    font-size: 1.7rem;
+  }
+}
+// Bilder 1
+.pos {
+  position: relative;
+
+  .many {
+    width: 25%;
+    position: absolute;
+
+    top: -51vh;
+    left: 60%;
+    z-index: 1;
+  }
+  .inBig {
+    width: 50%;
+    position: absolute;
+    top: -70vh;
+    left: 14%;
+  }
+}
+// circle
+.relcirc {
+  position: relative;
+
+  .circle {
+    position: absolute;
+    width: 25%;
+    top: -14vh;
+    left: 75%;
+    animation-name: round;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    @keyframes round {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}
+// wheit zwei
+.spaceZwei {
+  height: 230vh;
+  display: flex;
+  .lpZwei {
+    padding: 170% 0 0 45%;
+  }
+  h2 {
+    padding-left: 45%;
+    font-size: 5rem;
+    line-height: 90%;
+  }
+  .thisDesignZwei {
+    padding: 30% 18% 0 32%;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+}
+// Bilder 2
+.fml {
+  position: absolute;
+  width: 30%;
+  left: 10%;
+  top: -100vh;
+  z-index: 1;
+}
+.logo {
+  position: absolute;
+  width: 55%;
+  left: 35%;
+  top: -120vh;
+}
+
+// animation
+.ani {
+  position: absolute;
+
+  font-size: 5rem;
+  width: 150%;
+  background-color: white;
+  color: black;
+  transform: rotate(45deg);
+  animation-name: june;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  @keyframes june {
+    from {
+      top: -450px;
+      right: -500px;
+    }
+    to {
+      top: 800px;
+      right: -1750px;
+    }
+  }
+
+  span {
+    color: white;
+    -webkit-text-stroke: 1px black;
+  }
+}
+// BLACK 3
+.bcl {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  .p {
+    padding: 15% 0 2% 7%;
+  }
+  h4 {
+    font-size: 1.7rem;
+    padding: 0 67% 2% 7%;
+    line-height: 170%;
+  }
+  a {
+    margin-left: 7%;
+  }
+}
+// footer
+footer {
+  display: flex;
+  padding-left: 7%;
+  line-height: 200%;
+  font-size: 1.4rem;
+  justify-content: space-between;
+  padding-right: 7%;
+  .pic {
+    display: flex;
+    width: 10%;
+    // WARUM GEHT ALIGN-CONTENT NICHT?
+    // align-content: center;
+  }
+}
+@media (max-width: 768px) {
+  // BLACK 1
+  .center {
+    align-items: center;
+    h1 {
+      align-items: center;
+      font-size: 3rem;
+      padding: 1% 30%;
+    }
+  }
+  //   big text
+  .last {
+    font-size: 2rem;
+  }
+  .back {
+    background-size: 37%;
+  }
+  //   wildfires
+  .wild {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  //   white
+  .rel .textEins {
+    top: 20%;
+    h3 {
+      //   font-size: rem;
+      padding-right: 20%;
+    }
+    p {
+      padding-right: 28%;
+    }
+  }
+  .rel .textZwei {
+    padding-right: 14%;
+    left: 35%;
+  }
+  .rel .sieben {
+    top: 95%;
+  }
+  //   black zwei
+  .space {
+    height: 110vh;
+    .lp {
+      padding: 60% 0 0 40%;
+    }
+    h2 {
+      padding-left: 40%;
+      font-size: 4rem;
+    }
+    .thisDesign {
+      padding: 19% 10% 0% 20%;
+      font-size: 1.2rem;
+    }
+  }
+  //   Bild 1
+  .pos {
+    .many {
+      top: -30vh;
+    }
+    .inBig {
+      top: -45vh;
+    }
+  }
+  .relcirc {
+    .circle {
+      top: -10vh;
+      left: 75%;
+    }
+  }
+  //   wheit zwei
+  .spaceZwei {
+    height: 160vh;
+    .lpZwei {
+      padding: 110% 0 0 45%;
+    }
+    h2 {
+      font-size: 4rem;
+    }
+    .thisDesignZwei {
+      padding: 30% 11% 0 20%;
+      font-size: 1.2rem;
+    }
+  }
+  //   Bilder 2
+  .fml {
+    top: -67vh;
+  }
+  .logo {
+    top: -80vh;
+  }
+  //   animation
+  .ani {
+    width: 150%;
+    font-size: 3rem;
+  }
+
+  //   BLACK 3
+  .bcl {
+    height: 90vh;
+    h4 {
+      padding: 0 40% 2% 7%;
+    }
+  }
+  footer {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Lar";
+  src: url(../font/LarishNeueSemibold.woff);
+}
+@font-face {
+  font-family: "Work";
+  src: url(../font/WorkSans-Regular.ttf);
+}
+h1 {
+  font-family: "Lar";
+}
+h2 {
+  font-family: "Lar";
+}
+.kom {
+  font-family: "Work";
+  font-size: 1rem;
+  padding-top: 5%;
+}
+img {
+  width: 100%;
+}
+.cb {
+  background-color: black;
+  color: white;
+}
+.aa {
+  padding: 1% 2%;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transition: 0.3s linear;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: white;
+  transition: 0.3s linear;
+}
+@media (max-width: 768px) {
+  .kom {
+    font-size: 0.7rem;
+  }
+}
