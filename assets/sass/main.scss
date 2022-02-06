@@ -217,11 +217,9 @@
   left: 35%;
   top: -120vh;
 }
-
 // animation
 .ani {
   position: absolute;
-
   font-size: 5rem;
   width: 150%;
   background-color: white;
@@ -242,7 +240,6 @@
       right: -1750px;
     }
   }
-
   span {
     color: white;
     -webkit-text-stroke: 1px black;
@@ -273,11 +270,12 @@ footer {
   font-size: 1.4rem;
   justify-content: space-between;
   padding-right: 7%;
+  article div a i {
+    color: white;
+  }
   .pic {
     display: flex;
     width: 10%;
-    // WARUM GEHT ALIGN-CONTENT NICHT?
-    // align-content: center;
   }
 }
 @media (max-width: 768px) {
@@ -377,7 +375,6 @@ footer {
     width: 150%;
     font-size: 3rem;
   }
-
   //   BLACK 3
   .bcl {
     height: 90vh;

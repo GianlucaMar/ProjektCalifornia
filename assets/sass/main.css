@@ -350,6 +350,9 @@ footer {
   justify-content: space-between;
   padding-right: 7%;
 }
+footer article div a i {
+  color: white;
+}
 footer .pic {
   display: flex;
   width: 10%;
